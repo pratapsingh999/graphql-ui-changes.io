@@ -1,38 +1,127 @@
-.App {
+html {
+  font-size: 90.5%;
+} 
+body {
+  background-color: #b3e5fc;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 40px;
+}
+h2 {
   text-align: center;
+  margin: 20px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imgs{
+  border-radius: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  height: 520px;
   display: flex;
-  flex-direction: column;
+  border: none;
+  color: black;
+  margin: auto;
+border-radius: 20px 20px;
+transition: transform .4s;
+}
+.card:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.04); 
+  transform: scale(1.04);
+}
+.cards{
+  height: 590px;
+  display: flex;
+  border: none;
+  color: black;
+  margin: auto;
+border-radius: 20px 20px;
+transition: transform .4s;
+}
+.cards:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.04); 
+  transform: scale(1.04);
+}
+h2{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.button {
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button:hover {
+  background-color: #2980b9;
+}
+.buttons {
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ margin-left: 20px;
+  transition: background-color 0.3s ease;
+}
+.buttons:hover {
+  background-color: #2980b9;
+}
+.search-bar{
+  width: 100%;
+  max-width: 700px;
+  background: rgba(27, 26, 26, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  margin-left: 300px;
+}
+.search-bar input{
+  background: transparent;
+  flex: 09;
+  border: 0;
+  outline: none;
+  font-size: 17px;
+}
+::placeholder{
+  color: black;
+}
+.search-bar button img {
+width: 250px;
+}
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background :rgba(27, 26, 26, 0.2);;
+  cursor: pointer;
+}
+ .rows{
+    margin-left: 35%;
+    margin-bottom: 25px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.butt{
+  border-radius: 20px 20px;
+}
+.card-img-top{
+width: 94%;
+margin-top: 10px;
+margin-left: 10px;
+border-radius: 20px 20px;
+}
+.card-title{
+  color: rgb(20, 215, 20);
+}
+.card-text{
+  color:black
 }
